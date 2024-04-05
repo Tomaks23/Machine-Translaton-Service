@@ -6,7 +6,7 @@ import com.example.machine_translaton_service.model.dto.LangCodeDto;
 import com.example.machine_translaton_service.model.dto.TranslateContentDto;
 import com.example.machine_translaton_service.service.ContentDomainService;
 import com.example.machine_translaton_service.service.LangCodeService;
-import com.example.machine_translaton_service.service.TranslateContentServiceImpl;
+import com.example.machine_translaton_service.service.TranslateContentService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,9 +19,8 @@ public class MachineTranslationController {
 
     private final LangCodeService langCodeService;
     private final ContentDomainService contentDomainService;
-    private final TranslateContentServiceImpl translateContentService;
-
-    public MachineTranslationController(LangCodeService langCodeService, ContentDomainService contentDomainService, TranslateContentServiceImpl translateContentService) {
+    private final TranslateContentService translateContentService;
+    public MachineTranslationController(LangCodeService langCodeService, ContentDomainService contentDomainService, TranslateContentService translateContentService) {
         this.langCodeService = langCodeService;
         this.contentDomainService = contentDomainService;
         this.translateContentService = translateContentService;

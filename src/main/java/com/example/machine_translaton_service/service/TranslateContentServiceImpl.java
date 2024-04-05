@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import java.util.Objects;
 
 @Service
-public class TranslateContentServiceImpl {
+public class TranslateContentServiceImpl implements TranslateContentService {
 
 
     private final TranslateContentRepository translateContentRepository;
@@ -34,9 +34,11 @@ public class TranslateContentServiceImpl {
     public TranslateContent translateContent(TranslateContentDto translateContentDto) {
         TranslateContent translateCont = new TranslateContent();
         langCodeRepository.findByName(translateContentDto.getSourceLanguage())
-                .orElseThrow(() -> new CustomException("Source language " + translateContentDto.getSourceLanguage() + " does not exist!", HttpStatus.NOT_FOUND));
+                .orElseThrow(() -> new CustomException("Source language " + translateContentDto.getSourceLanguage() +
+                        " does not exist!", HttpStatus.NOT_FOUND));
         langCodeRepository.findByName(translateContentDto.getTargetLanguage())
-                .orElseThrow(() -> new CustomException("Target language " + translateContentDto.getTargetLanguage() + " does not exist!", HttpStatus.NOT_FOUND));
+                .orElseThrow(() -> new CustomException("Target language " + translateContentDto.getTargetLanguage() +
+                        " does not exist!", HttpStatus.NOT_FOUND));
         contentDomainRepository.findByDomain(translateContentDto.getDomain())
                 .orElseThrow(() -> new CustomException("This domain does not exist!", HttpStatus.NOT_FOUND));
 
