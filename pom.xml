@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>Machine_Translaton_Service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Machine Translaton Service</name>
-    <description>Machine Translaton Service</description>
+    <name>Machine Translation Service</name>
+    <description>Machine Translation Service</description>
     <properties>
         <java.version>21</java.version>
     </properties>
