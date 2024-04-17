@@ -46,7 +46,7 @@ public class TranslateContentServiceImpl implements TranslateContentService {
         translateCont.setTargetLanguage(translateContentDto.getTargetLanguage());
         translateCont.setDomain(translateContentDto.getDomain());
         translateCont.setContent(translateContentDto.getContent());
-        return translateContentRepository.save(translateCont);
+        return translateCont;
     }
 
     public TranslateContent validateTranslate(TranslateContentDto translateContentDto) {
@@ -67,7 +67,7 @@ public class TranslateContentServiceImpl implements TranslateContentService {
         translateCont.setTargetLanguage(translateContentDto.getTargetLanguage());
         translateCont.setDomain(translateContentDto.getDomain());
         translateCont.setContent(translateContentDto.getContent());
-        return translateContentRepository.save(translateCont);
+        return translateCont;
     }
 
     private boolean isValidContent(String content) {

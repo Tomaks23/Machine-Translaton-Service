@@ -40,12 +40,5 @@ public class MachineTranslationController {
     public ResponseEntity<TranslateContent> translateContent(@Valid @RequestBody TranslateContentDto translateContentDto) {
         return ResponseEntity.ok(translateContentService.translateContent(translateContentDto));
     }
-
-    @PostMapping(path = "/validated-translate")
-    public ResponseEntity<TranslateContent> validateTranslate(@Valid @RequestBody TranslateContentDto translateContentDto){
-        return ResponseEntity.ok(translateContentService.validateTranslate(translateContentDto));
-    }
-
-
 }
 
