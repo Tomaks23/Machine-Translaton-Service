@@ -1,8 +1,8 @@
-package com.example.machine_translaton_service.service;
+package com.example.machineTranslationService.service;
 
-import com.example.machine_translaton_service.model.LangCode;
-import com.example.machine_translaton_service.model.dto.LangCodeDto;
-import com.example.machine_translaton_service.repository.LangCodeRepository;
+import com.example.machineTranslationService.model.LangCode;
+import com.example.machineTranslationService.model.dto.LangCodeDto;
+import com.example.machineTranslationService.repository.LangCodeRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

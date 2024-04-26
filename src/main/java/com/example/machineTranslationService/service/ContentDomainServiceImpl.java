@@ -1,7 +1,7 @@
-package com.example.machine_translaton_service.service;
+package com.example.machineTranslationService.service;
 
-import com.example.machine_translaton_service.model.ContentDomain;
-import com.example.machine_translaton_service.repository.ContentDomainRepository;
+import com.example.machineTranslationService.model.ContentDomain;
+import com.example.machineTranslationService.repository.ContentDomainRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

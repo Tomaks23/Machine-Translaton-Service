@@ -1,4 +1,4 @@
-package com.example.machine_translaton_service.model.dto;
+package com.example.machineTranslationService.model.dto;
 
 import lombok.*;
 

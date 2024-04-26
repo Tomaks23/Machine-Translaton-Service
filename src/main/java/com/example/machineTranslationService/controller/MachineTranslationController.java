@@ -1,12 +1,12 @@
-package com.example.machine_translaton_service.controller;
+package com.example.machineTranslationService.controller;
 
-import com.example.machine_translaton_service.model.ContentDomain;
-import com.example.machine_translaton_service.model.TranslateContent;
-import com.example.machine_translaton_service.model.dto.LangCodeDto;
-import com.example.machine_translaton_service.model.dto.TranslateContentDto;
-import com.example.machine_translaton_service.service.ContentDomainService;
-import com.example.machine_translaton_service.service.LangCodeService;
-import com.example.machine_translaton_service.service.TranslateContentService;
+import com.example.machineTranslationService.model.ContentDomain;
+import com.example.machineTranslationService.model.TranslateContent;
+import com.example.machineTranslationService.model.dto.LangCodeDto;
+import com.example.machineTranslationService.model.dto.TranslateContentDto;
+import com.example.machineTranslationService.service.ContentDomainService;
+import com.example.machineTranslationService.service.LangCodeService;
+import com.example.machineTranslationService.service.TranslateContentService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,11 +1,11 @@
-package com.example.machine_translaton_service.service;
+package com.example.machineTranslationService.service;
 
-import com.example.machine_translaton_service.exception.CustomException;
-import com.example.machine_translaton_service.model.TranslateContent;
-import com.example.machine_translaton_service.model.dto.TranslateContentDto;
-import com.example.machine_translaton_service.repository.ContentDomainRepository;
-import com.example.machine_translaton_service.repository.LangCodeRepository;
-import com.example.machine_translaton_service.repository.TranslateContentRepository;
+import com.example.machineTranslationService.exception.CustomException;
+import com.example.machineTranslationService.model.TranslateContent;
+import com.example.machineTranslationService.model.dto.TranslateContentDto;
+import com.example.machineTranslationService.repository.ContentDomainRepository;
+import com.example.machineTranslationService.repository.LangCodeRepository;
+import com.example.machineTranslationService.repository.TranslateContentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

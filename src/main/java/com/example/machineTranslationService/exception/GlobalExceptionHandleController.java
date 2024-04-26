@@ -1,4 +1,4 @@
-package com.example.machine_translaton_service.exception;
+package com.example.machineTranslationService.exception;
 
 import io.micrometer.common.lang.Nullable;
 import org.springframework.context.MessageSource;

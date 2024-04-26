@@ -1,7 +1,7 @@
-package com.example.machine_translaton_service.service;
+package com.example.machineTranslationService.service;
 
-import com.example.machine_translaton_service.model.TranslateContent;
-import com.example.machine_translaton_service.model.dto.TranslateContentDto;
+import com.example.machineTranslationService.model.TranslateContent;
+import com.example.machineTranslationService.model.dto.TranslateContentDto;
 
 public interface TranslateContentService {
     TranslateContent translateContent(TranslateContentDto translateContentDto);

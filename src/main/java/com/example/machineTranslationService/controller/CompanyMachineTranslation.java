@@ -1,8 +1,8 @@
-package com.example.machine_translaton_service.controller;
+package com.example.machineTranslationService.controller;
 
-import com.example.machine_translaton_service.model.TranslateContent;
-import com.example.machine_translaton_service.model.dto.TranslateContentDto;
-import com.example.machine_translaton_service.service.TranslateContentService;
+import com.example.machineTranslationService.model.TranslateContent;
+import com.example.machineTranslationService.model.dto.TranslateContentDto;
+import com.example.machineTranslationService.service.TranslateContentService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

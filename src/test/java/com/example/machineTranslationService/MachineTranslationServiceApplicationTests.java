@@ -1,10 +1,10 @@
-package com.example.machine_translaton_service;
+package com.example.machineTranslationService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MachineTranslatonServiceApplicationTests {
+class MachineTranslationServiceApplicationTests {
 
     @Test
     void contextLoads() {

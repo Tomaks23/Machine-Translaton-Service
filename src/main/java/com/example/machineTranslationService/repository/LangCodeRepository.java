@@ -1,6 +1,6 @@
-package com.example.machine_translaton_service.repository;
+package com.example.machineTranslationService.repository;
 
-import com.example.machine_translaton_service.model.LangCode;
+import com.example.machineTranslationService.model.LangCode;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

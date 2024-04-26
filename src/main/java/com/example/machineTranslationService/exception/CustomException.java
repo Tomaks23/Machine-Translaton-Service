@@ -1,4 +1,4 @@
-package com.example.machine_translaton_service.exception;
+package com.example.machineTranslationService.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

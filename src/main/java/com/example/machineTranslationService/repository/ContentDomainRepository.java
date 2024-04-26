@@ -1,6 +1,6 @@
-package com.example.machine_translaton_service.repository;
+package com.example.machineTranslationService.repository;
 
-import com.example.machine_translaton_service.model.ContentDomain;
+import com.example.machineTranslationService.model.ContentDomain;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

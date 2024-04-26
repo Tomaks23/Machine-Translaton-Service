@@ -1,4 +1,4 @@
-package com.example.machine_translaton_service.model;
+package com.example.machineTranslationService.model;
 
 import jakarta.persistence.*;
 import lombok.*;
